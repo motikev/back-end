@@ -12,7 +12,7 @@ db.init_app(app)
 api = Api(app)
 migrate = Migrate(app, db)
 CORS(app)
-
+# home
 # routes
 class Signup(Resource):
     def post(self):
