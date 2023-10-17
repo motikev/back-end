@@ -19,6 +19,4 @@ PyJWT==2.8.0
 pytz==2023.3.post1
 six==1.16.0
 SQLAlchemy==2.0.20
-SQLAlchemy-serializer==1.4.1
-typing_extensions==4.8.0
 Werkzeug==2.2.2
