@@ -6,7 +6,7 @@ from models import db, User, Course, Enrollment, CourseContent
 from flask_jwt_extended import jwt_required, get_jwt_identity
 from flask_cors import CORS
 app = Flask(__name__)
-app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///database.db'
+app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://database_syyu_user:a4sAWQG5nXQ8tHThCw4LE3dxZQvRiqGu@dpg-ckn5kkp1rp3c7393ug00-a.oregon-postgres.render.com/database_syyu'
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 db.init_app(app)
 api = Api(app)
